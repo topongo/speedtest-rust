@@ -3,5 +3,5 @@ services:
     build: .
     restart: unless-stopped
     volumes:
-      - "/etc/librespeed.toml:/usr/local/bin/configs.toml"
-      - "/var/lib/librespeed/assets:/usr/local/bin/assets"
+      - "./configs.toml:/usr/local/bin/configs.toml"
+      # - "/var/lib/librespeed/assets:/usr/local/bin/assets"
