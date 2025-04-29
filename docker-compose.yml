@@ -5,3 +5,5 @@ services:
     volumes:
       - "./configs.toml:/usr/local/bin/configs.toml"
       # - "/var/lib/librespeed/assets:/usr/local/bin/assets"
+    ports:
+      - "9191:8080"
